@@ -837,6 +837,7 @@ margin-bottom: 20px;
     margin-left: 12px;
     margin-top: 47px;
     padding-right: 36px;
+    padding-bottom: 2px;
     background: #2196F3;
     border: 0px;
     border-radius: 4px;
@@ -849,14 +850,10 @@ margin-bottom: 20px;
     letter-spacing: 0.06em;
 }
 
-.footer-form-btn::after {
-    position:absolute;
-    width: 24px;
-    height: 24px;
-    content: url(/images1/icon-send.svg);
-    fill: var(--white-color);
-    margin-left: 10px;
-    margin-top: 3px;
+.footer-input-icon {
+position: absolute;
+margin-left: 10px;
+margin-top: 2px;
 }
 
 /* backdrop */
@@ -1065,7 +1062,7 @@ color: var(--secondary-color-text);
   .modal-form-term:checked + .modal-form-term-desc::before {
     background-color: var(--accent-color-text);
     outline: 0px solid #2196f3;
-    background-image: url(../images1/icon-accept.svg);
+    background-image: url(../images1/icon-accept.svg)
 
   }
 
@@ -1094,4 +1091,6 @@ color: var(--secondary-color-text);
   }
 
 
-  
+.modal-close-btn:hover {
+fill: #2196f3;
+}
